@@ -1,0 +1,26 @@
+.Pagination {
+  margin : 15px 0;
+  
+  > div {
+    display    : inline-block;
+    min-width  : 35px;
+    padding    : 5px 5px;
+    border     : 1px solid lighten($cgrey, 50);
+    text-align : center;
+    
+    span {
+      font-size : 10px;
+    }
+    
+    &:hover, &.active {
+      cursor           : pointer;
+      background-color : $crimson-main;
+      color            : $cyellow;
+      
+      span {
+        color : $cyellow;
+      }
+    }
+  }
+  
+}
