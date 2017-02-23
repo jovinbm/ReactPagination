@@ -1,3 +1,4 @@
+require('./index.scss');
 import React from 'react';
 
 const First = React.createClass({
